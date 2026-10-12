@@ -3,7 +3,7 @@ name: Build Android APK
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:
+  workflow_dispatch: # Baris ini yang memunculkan tombol 'Run workflow'
 
 jobs:
   build:
